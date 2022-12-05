@@ -21,4 +21,8 @@ public class LibraryController {
 
     @PostMapping("/edit")
     public String editLibraryPage(){return "Edit Library Page";}
+
+    @GetMapping("/view")
+    public String viewLibraryPage(){return "View Library Page";}
+
 }
