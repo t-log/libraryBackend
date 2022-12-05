@@ -16,6 +16,7 @@ public class LibraryController {
     @PostMapping("/search")
     public String searchLibraryPage(){return "Search Library Page";}
 
-
+    @PostMapping("/delete")
+    public String deleteLibraryPage(){return "Delete Library Page";}
 
 }
