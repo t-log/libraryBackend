@@ -13,6 +13,9 @@ public class LibraryController {
     @PostMapping("/add")
     public String addLibraryPage(){return "Add Library Page";}
 
+    @PostMapping("/search")
+    public String searchLibraryPage(){return "Search Library Page";}
+
 
 
 }
