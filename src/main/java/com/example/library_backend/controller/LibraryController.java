@@ -19,4 +19,6 @@ public class LibraryController {
     @PostMapping("/delete")
     public String deleteLibraryPage(){return "Delete Library Page";}
 
+    @PostMapping("/edit")
+    public String editLibraryPage(){return "Edit Library Page";}
 }
